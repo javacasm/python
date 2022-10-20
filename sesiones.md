@@ -1,4 +1,6 @@
-# Historia y orígenes
+# Sesión 1
+
+## Historia y orígenes
 
 * Creado en los 80 por [Guido Van Rossum](https://es.wikipedia.org/wiki/Guido_van_Rossum)
 
@@ -10,7 +12,7 @@
     * También en embebidos: micropython
 * Es intretado: Pros y cons
 -------------------------------------
-# Entornos
+## Entornos
 
 * Intérprete de consola
 * IDEs
@@ -23,11 +25,11 @@
 
 --------------------------
 
-# Instalación
+## Instalación
 
 [Thonny.org](https://thonny.org)
 
-# Uso de Thonny
+## Uso de Thonny
 
 * Consola
 * Ficheros
@@ -35,7 +37,7 @@
 
 -------------------------------------
 
-# Hola Mundo
+## Hola Mundo
 
 ```python
 print('Hola python')
@@ -43,40 +45,64 @@ print('Hola python')
 
 Errores de sintaxis
 
-# Ficheros con código
+## Ficheros con código
 
 Creación
 Ejecución
 
 ------------------------------
 
-# Variables
+## Variables
 
 * ¿Qué es una variable?
 * ¿usos?
 * Entrada de datos: input()
 * Salida de datos: print()
 
-# Tipos de datos
+## Tipos de datos
 
 * Tipos y sus usos
 * Conversión
 * Comprobación
 
-# Operaciones entre datos
+## Operaciones entre datos
 
 * Operadores
 * Errores
 * Cadenas
 
-# Sentencias condionales
+## Sentencias condionales
 
 * Comparaciones
 * if 
 * if else
 
-# Bucles
+## Bucles
 
 * Bucles
 * for
 * while
+
+# Sesion 2
+
+## Tratamiento de errores
+
+Excepciones
+
+## Colecciones
+
+* Tuplas
+* Cadenas como colecciones
+* Listas
+* Diccionarios
+
+
+# Sesión 3
+
+## Ficheros
+
+### Administración de ficheros
+
+### Lectura
+
+### Escritura
