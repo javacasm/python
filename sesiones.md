@@ -85,15 +85,52 @@ Ejecución
 
 # Sesion 2
 
+## Condicionales
+
+10 < a < 20
+
+and, or
+
+Anidadas
+
+## Bucles 
+
+### Infinitos
+
+While True:
+    break
+
+
+### Anidados
+
+
 ## Tratamiento de errores
 
 Excepciones
 
+
+## Funciones
+
+Argumentos
+
+valores de vuelta
+
+
+## Cadenas
+
+Funciones: len, split, find, in, index
+
+Cadenas como colecciones
+
 ## Colecciones
 
 * Tuplas
-* Cadenas como colecciones
+    - índices, negativos, rangos
+    - búsquedas: in
+    - iteracion
 * Listas
+    - append, remove
+    - sort
 * Diccionarios
 
 
@@ -106,3 +143,7 @@ Excepciones
 ### Lectura
 
 ### Escritura
+
+# Sesión 4
+
+## Módulos y librerías
