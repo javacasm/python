@@ -103,6 +103,7 @@ While True:
 
 ### Anidados
 
+* Diferencia al evaluar los límites
 
 ## Tratamiento de errores
 
@@ -131,18 +132,48 @@ Cadenas como colecciones
 * Listas
     - append, remove
     - sort
-* Diccionarios
 
 
 # Sesión 3
+
+Ejemplo agenda v1
+
+* Diccionarios
+
+sampleDict = {
+"class":{
+"student":{
+"name":"Mike",
+"marks":{
+"physics":70,
+"history":80
+}
+}
+}
+}
+
+
+## modulos
+
+import datetime
+datetime.date.today()
 
 ## Ficheros
 
 ### Administración de ficheros
 
+os
+
+os.path
+
 ### Lectura
 
 ### Escritura
+
+
+texto
+
+json
 
 # Sesión 4
 

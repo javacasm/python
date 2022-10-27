@@ -1,7 +1,7 @@
 # termostato v2
 
 while True:
-    temperatura = int(input("temperatura?"))
+    temperatura = int(input("temperatura? "))
  
     if temperatura > 25:
         print('Encendido AC')
