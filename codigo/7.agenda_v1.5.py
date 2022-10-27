@@ -47,5 +47,39 @@ def añadirAmigos():
         lista_edades.append(edad)
         print('Tienes', len(lista_amigos), 'amigos')
 
+def guardarAgenda():
+    """ Guardamos la agenda de amigos y edades
+        en un fichero de txto en formato CSV
+        Cada linea tendra nombre;edad
+    """
+    f = open('agenda.csv','wt', encoding="utf8")
+    
+    for i in range (len(lista_amigos)): # range(0,len(..),1)
+        linea = lista_amigos[i] + ';' + str(lista_edades[i]) + '\n'
+        f.write(linea)
+    
+    f.close()
+
+def cargarAgenda():
+    """ Recupera la agenda
+    """
+    f = open('agenda.csv','rt',encoding="utf8")
+    numero_lineas = 0
+    for linea in f.readlines():
+        try:  # por si hay algun error en el formato
+            valores=linea.split(';')  # divido la linea por ";"
+            nombre= valores[0]        # 1º nombre
+            edad = int(valores[1])    # 2º edad
+            lista_amigos.append(nombre)
+            lista_edades.append(edad)
+            numero_lineas += 1
+        except:
+            print('Error recuperando linea:',linea)
+    f.close()
+    print('Recuperados',numero_lineas,'amigos')
+
+
+cargarAgenda()
 añadirAmigos()
 mostrarAmigosYEdades()
+guardarAgenda()
