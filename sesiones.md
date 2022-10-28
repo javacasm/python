@@ -43,6 +43,12 @@
 print('Hola python')
 ```
 
+[Código "hola mundo"](./codigo/2.0.HolaMundo.py)
+
+
+[Código cálculos](./codigo/2.1.segundos.milenio.py)
+
+
 Errores de sintaxis
 
 ## Ficheros con código
@@ -64,6 +70,8 @@ Ejecución
 * Tipos y sus usos
 * Conversión
 * Comprobación
+
+[Código nombre y edad](./codigo/3.0.saludo_edad.py)
 
 ## Operaciones entre datos
 
