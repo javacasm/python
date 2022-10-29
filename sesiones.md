@@ -85,10 +85,23 @@ Ejecución
 * if 
 * if else
 
+[Termostato v1](./codigo/4.0.termostato.py)
+
+[Termostato v2](./codigo/4.1.termostato.py)
+
+[Termostato v3](./codigo/4.2.termostato.py)
+
+[Saludo, edad y calificación según edad](./codigo/4.4.saludo.edad.py)
+
 ## Bucles
 
 * Bucles
 * for
+
+[Par o impar v1](./codigo/5.0.0.pares_impares.py)
+
+[Par o impar v2 con formato de cadenas](./codigo/5.0.1.pares_impares.py)
+
 * while
 
 # Sesion 2
@@ -117,6 +130,9 @@ While True:
 
 Excepciones
 
+[Código Excepciones en conversiones](./codigo/3.4.edad_excepcionceons.py)
+
+[Código Excepciones en cálculos](./codigo/3.5.variables_excepciones.py)
 
 ## Funciones
 
