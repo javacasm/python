@@ -106,20 +106,24 @@ Ejecución
 
 # Sesion 2
 
-## Condicionales
-
-10 < a < 20
-
-and, or
-
-Anidadas
-
 ## Bucles 
 
 ### Infinitos
 
 While True:
     break
+
+## Condicionales
+
+10 < a < 20
+
+[Termostato v2](./codigo/5.3.1.termotato_v2.py)
+
+and, or
+
+[Termostato v3](./codigo/5.3.2.termostato_v3.py)
+
+Anidadas
 
 
 ### Anidados
@@ -140,12 +144,19 @@ Argumentos
 
 valores de vuelta
 
+Variables locales y globales
+
+[Saludos v3](./codigo/6.0.saludosPersonas.py)
+
+[Funciones con retorno](./codigo/6.1.FuncionesRetorno.py)
 
 ## Cadenas
 
 Funciones: len, split, find, in, index
 
 Cadenas como colecciones
+
+[Deletrea](./codigo/7.2.deletrea.py)
 
 ## Colecciones
 
@@ -157,6 +168,7 @@ Cadenas como colecciones
     - append, remove
     - sort
 
+[Lista amigos](./codigo/7.3.lista_amigos.py)
 
 # Sesión 3
 
@@ -177,10 +189,6 @@ sampleDict = {
 }
 
 
-## modulos
-
-import datetime
-datetime.date.today()
 
 ## Ficheros
 
@@ -192,13 +200,22 @@ os.path
 
 ### Lectura
 
+[Leer fichero texto](./codigo/8.2.leer_fichero_text.py)
+
 ### Escritura
 
+[Escribir fichero texto](./codigo/8.1.escribir_fichero_texto.py)
 
-texto
 
-json
+[Agenda v1.5](./codigo/8.3.agenda_v1.5.py)
 
 # Sesión 4
 
 ## Módulos y librerías
+
+
+## modulo DateTime
+
+[Ejemplo fecha actual](./codigo/9.0.fechas.py)
+
+[Adivina número aleatorio](./codigo/9.2.random.adivinaza.py)

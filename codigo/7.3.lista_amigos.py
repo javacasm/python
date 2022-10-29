@@ -10,7 +10,23 @@ def saludosAmigos():
     global lista_amigos
     for amigo in lista_amigos:
         print('Hola',amigo)
-    
+
+def mostrarAmigos_v1():
+    """ Muestra todos los amigos
+        Utiliza la variable global lista_amigos
+    """     
+    global lista_amigos
+    for i in range (len(lista_amigos)): # range(0,len(..),1)
+        print(lista_amigos[i])
+
+def mostrarAmigos_v2():
+    """ Muestra todos los amigos
+        Utiliza la variable global lista_amigos
+    """    
+    global lista_amigos
+    for amigo in lista_amigos:
+        print(amigo)
+
 def mostradAmigosYEdad():
     """ Funcion que muestra todos los amigos
         y sus edades
