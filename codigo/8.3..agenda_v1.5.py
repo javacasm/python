@@ -1,7 +1,12 @@
-# agenda de contactos v1
+# agenda de contactos v1.5
+
+from os import listdir
 
 lista_amigos = []
 lista_edades = []
+
+nombre_agenda = 'agenda.csv'
+separador_campos = ';'
 
 def saludosAmigos():
     """ Funcion que saluda a todos los amigos
@@ -67,7 +72,30 @@ def añadirAmigos():
 
         print('Ahora tienes',len(lista_amigos),'amigos')
         
-añadirAmigos()
 
+def guardarAmigos():
+    global nombre_agenda, separador_campos
+    f = open(nombre_agenda, 'wt', encoding='utf8') # siempre guardamos la agenda completa
+    for i in range(len(lista_amigos)):
+        linea = lista_amigos[i] + separador_campos + str(lista_edades[i]) + '\n'
+        f.write(linea)
+    f.close()
+    print('Se han guardado '+str(len(lista_amigos)))
+
+def cargarAmigos():
+    global nombre_agenda, separador_campos
+    if nombre_agenda in listdir():
+        f = open(nombre_agenda, 'rt', encoding='utf8')
+        for linea in f.readlines():
+            valores = linea.split(separador_campos)
+            lista_amigos.append(valores[0])
+            lista_edades.append(int(valores[1]))
+        print('Se ha recuperado '+str(len(lista_amigos))+' amigos')
+    else:
+        print('No se ha encontrado el fichero de la agenda')
+
+cargarAmigos()
+añadirAmigos()
+guardarAmigos()
 mostradAmigosYEdad()
     

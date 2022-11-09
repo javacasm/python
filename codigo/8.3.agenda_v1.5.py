@@ -52,7 +52,7 @@ def guardarAgenda():
         en un fichero de txto en formato CSV
         Cada linea tendra nombre;edad
     """
-    f = open('agenda.csv','wt', encoding="utf8")
+    f = open('agenda.csv',"wt", encoding="utf8")
     
     for i in range (len(lista_amigos)): # range(0,len(..),1)
         linea = lista_amigos[i] + ';' + str(lista_edades[i]) + '\n'

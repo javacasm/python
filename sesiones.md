@@ -206,6 +206,9 @@ os.path
 
 [Escribir fichero texto](./codigo/8.1.escribir_fichero_texto.py)
 
+¿seek? 
+
+Modo ¿x? ¿+¿
 
 [Agenda v1.5](./codigo/8.3.agenda_v1.5.py)
 
@@ -213,9 +216,28 @@ os.path
 
 ## Módulos y librerías
 
+¿Qué es un módulo?
+¿Dónde se instalan los módulos?
+Modularizando e importando nuestro propio código
 
-## modulo DateTime
+# Librería estándar
+¿documentación? ¿en español?
+
+## sys
+
+## zip
+
+## DateTime
 
 [Ejemplo fecha actual](./codigo/9.0.fechas.py)
 
+## Random
+
 [Adivina número aleatorio](./codigo/9.2.random.adivinaza.py)
+
+# Instalación de módulos
+
+## pip
+
+## Ejemplo request
+

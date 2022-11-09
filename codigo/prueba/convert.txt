@@ -1,0 +1,4 @@
+Hola, estoy escribiendo en un fichero de texto
+Una linea
+Y otra linea
+Una linea añadida al final
