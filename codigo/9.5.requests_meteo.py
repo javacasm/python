@@ -8,7 +8,7 @@
 >>> r = requests.get('https://api.openweathermap.org/data/2.5/weather?lat=39.31&lon=-74.5&appid=APIKEY')
 >>> r.status_code
 200
->>> requests.get('https://api.openweathermap.org/data/2.5/weather?lat=39.31&lon=-74.5&appid=73fc4161a0f660f33f115f5343')
+>>> requests.get('https://api.openweathermap.org/data/2.5/weather?lat=39.31&lon=-74.5&appid=APIKEY_ERROR')
 <Response [401]>
 >>> r.json()
 {'coord': {'lon': -74.5, 'lat': 39.31}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': 285.9, 'feels_like': 284.93, 'temp_min': 285.26, 'temp_max': 287.06, 'pressure': 1034, 'humidity': 65}, 'visibility': 10000, 'wind': {'speed': 4.63, 'deg': 70}, 'clouds': {'all': 100}, 'dt': 1668016143, 'sys': {'type': 2, 'id': 2006197, 'country': 'US', 'sunrise': 1667993692, 'sunset': 1668030532}, 'timezone': -18000, 'id': 4502904, 'name': 'Margate City', 'cod': 200}
