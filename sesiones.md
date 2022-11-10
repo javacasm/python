@@ -220,8 +220,12 @@ Modo ¿x? ¿+¿
 ¿Dónde se instalan los módulos?
 Modularizando e importando nuestro propio código
 
+[Agenda 2.0 - main](https://raw.githubusercontent.com/javacasm/python/master/codigo/9.2.agenda_v2.py)
+[Agenda 2.0 - modulo](https://raw.githubusercontent.com/javacasm/python/master/codigo/agenda.py)
+
 # Librería estándar
-¿documentación? ¿en español?
+
+[Documentación en español](https://docs.python.org/es/3/)
 
 ## sys
 
@@ -241,3 +245,6 @@ Modularizando e importando nuestro propio código
 
 ## Ejemplo request
 
+[Ejemplo de petición de pronóstico del tiempo](https://raw.githubusercontent.com/javacasm/python/master/codigo/9.5.requests_meteo.py)
+
+Tienes que darte de alta en https://openweathermap.org/ y sustituir tu APIKEY en el código
