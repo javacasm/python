@@ -29,8 +29,10 @@ r_NY['current']['humidity']  # humedad
 
 import requests
 
+## RECUERDA CAMBIAR APIKEY POR TU CLAVE DEL SERVICIO OpenWeatherMap
+
 # peticion de tiempo actual en Granada
-r = requests.get('http://api.openweathermap.org/data/2.5/weather?q=Granada&appid=823fb1192eba2e46db8f23343e8bf8c4')
+r = requests.get('http://api.openweathermap.org/data/2.5/weather?q=Granada&appid=APIKEY')
 
 if r.status_code == 200: # todo fue bien
     print('datos ok')
@@ -58,7 +60,7 @@ data['main']['temp'] -273
 data['main']['humidity']
 
 # peticion de pronostico
-r_pro = requests.get('http://api.openweathermap.org/data/2.5/forecast?lat=37.25&lon=-3.25&appid=823fb1192eba2e46db8f23343e8bf8c4')
+r_pro = requests.get('http://api.openweathermap.org/data/2.5/forecast?lat=37.25&lon=-3.25&appid=APIKEY')
 data_pro = r_pro.json()
 
 data_pro['list'] # previsiones
