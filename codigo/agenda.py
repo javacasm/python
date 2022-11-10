@@ -1,7 +1,8 @@
 import os
 import json
+import zipfile
 
-v = 2.2
+v = 2.3
 print('Agenda v',v)
 
 lista_contactos = []
@@ -81,3 +82,11 @@ def guardar_agenda():
         print('Guardados '+str(len(lista_contactos))+' contactos')
     except Exception as e:
         print('ERROR: no se ha podido guardar el fichero',e)
+        
+def copia_seguridad():
+    global fichero_datos
+    f_zip = zipfile.ZipFile('agenda.zip','w')
+    f_zip.write(fichero_datos)
+    f_zip.close()
+    
+    
