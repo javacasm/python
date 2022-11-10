@@ -1,9 +1,11 @@
 >>> import requests
 >>> 
 
->>> requests.get('https://api.openweathermap.org/data/2.5/weather?lat=39.31&lon=-74.5&appid=73fc4161a0f660f33f115f0b17145343')
+## Recuerda cambiar APIKEY por tu clave
+
+>>> requests.get('https://api.openweathermap.org/data/2.5/weather?lat=39.31&lon=-74.5&appid=APIKEY')
 <Response [200]>
->>> r = requests.get('https://api.openweathermap.org/data/2.5/weather?lat=39.31&lon=-74.5&appid=73fc4161a0f660f33f115f0b17145343')
+>>> r = requests.get('https://api.openweathermap.org/data/2.5/weather?lat=39.31&lon=-74.5&appid=APIKEY')
 >>> r.status_code
 200
 >>> requests.get('https://api.openweathermap.org/data/2.5/weather?lat=39.31&lon=-74.5&appid=73fc4161a0f660f33f115f5343')
@@ -36,17 +38,17 @@ cod 200
 12.899999999999977
 >>> info_tiempo['humidity']
 65
->>> requests.get('https://api.openweathermap.org/data/2.5/weather?q=Granada&appid=73fc4161a0f660f33f115f0b17145343')
+>>> requests.get('https://api.openweathermap.org/data/2.5/weather?q=Granada&appid=APIKEY')
 <Response [200]>
->>> requests.get('https://api.openweathermap.org/data/2.5/weather?q=Granada&units=matric&appid=73fc4161a0f660f33f115f0b17145343')
+>>> requests.get('https://api.openweathermap.org/data/2.5/weather?q=Granada&units=matric&appid=APIKEY')
 <Response [200]>
->>> r_granada = requests.get('https://api.openweathermap.org/data/2.5/weather?q=Granada&units=matric&appid=73fc4161a0f660f33f115f0b17145343')
+>>> r_granada = requests.get('https://api.openweathermap.org/data/2.5/weather?q=Granada&units=matric&appid=APIKEY')
 >>> data_granada=r_granada.json()
->>> r_granada = requests.get('https://api.openweathermap.org/data/2.5/weather?q=Granada&units=metric&appid=73fc4161a0f660f33f115f0b17145343')
+>>> r_granada = requests.get('https://api.openweathermap.org/data/2.5/weather?q=Granada&units=metric&appid=APIKEY')
 >>> data_granada=r_granada.json()
 >>> data_granada['main']
 {'temp': 10.46, 'feels_like': 9.78, 'temp_min': 9.61, 'temp_max': 12.7, 'pressure': 1022, 'humidity': 85, 'sea_level': 1022, 'grnd_level': 887}
->>> r_pro_granada = requests.get('https://api.openweathermap.org/data/2.5/forecast?q=Granada&units=metric&appid=73fc4161a0f660f33f115f0b17145343')
+>>> r_pro_granada = requests.get('https://api.openweathermap.org/data/2.5/forecast?q=Granada&units=metric&appid=APIKEY')
 >>> r_pro_granada.status_code
 200
 
